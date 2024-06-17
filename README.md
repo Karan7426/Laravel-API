@@ -67,30 +67,30 @@ php artisan serve
 
 The API provides the following endpoints:
 
--GET /api/products: Retrieve a list of products.
--POST /api/products: Create a new product.
--GET /api/products/{id}: Retrieve a specific product by ID.
--PUT /api/products/{id}: Update a specific product by ID.
--DELETE /api/products/{id}: Delete a specific product by ID.
+- GET /api/products: Retrieve a list of products.
+- POST /api/products: Create a new product.
+- GET /api/products/{id}: Retrieve a specific product by ID.
+- PUT /api/products/{id}: Update a specific product by ID.
+- DELETE /api/products/{id}: Delete a specific product by ID.
 
 ### API Documentation
--API documentation is available using Swagger at /api/documentation.
+- API documentation is available using Swagger at /api/documentation.
 
 ### Caching
--The API uses Laravel's caching to improve performance. The products list and individual product details are cached for one hour (3600 seconds). Cache is cleared automatically upon product creation, update, or deletion.
+- The API uses Laravel's caching to improve performance. The products list and individual product details are cached for one hour (3600 seconds). Cache is cleared automatically upon product creation, update, or deletion.
 
 ### Docker Support
 To run the application in a Docker container:
--Ensure Docker is installed on your machine.
--Build and start the containers
+- Ensure Docker is installed on your machine.
+- Build and start the containers
 ```bash
 docker-compose up --build
 ```
 
 ### Acknowledgements
--Laravel - The PHP framework for web artisans.
--Docker - Container platform for developers and sysadmins.
--Swagger - API documentation and design tools.
+- Laravel - The PHP framework for web artisans.
+- Docker - Container platform for developers and sysadmins.
+- Swagger - API documentation and design tools.
 
 
 
